@@ -1,0 +1,71 @@
+#container{
+    height: 100%;
+    background-color:whitesmoke;
+    padding: 10px 10px;
+    
+    
+}
+#RPS{
+    text-align: center;
+    color:black;
+    background-color: g;
+    padding-bottom:20px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+#startGame{
+    margin-left:40%;
+    padding-top: 10px;
+
+}
+#startGameButton{
+    
+}
+.players{
+    float: left;
+    
+   
+   
+    
+} 
+#player1{
+    float:left;
+    border-color:black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 100px 100px;
+    margin-left: 100px;
+    position: absolute;
+}
+#p1name{
+    margin-top: 50x;
+    margin-bottom: 50px;
+}
+    
+
+#player2{
+    float: right;
+    position: absolute;
+    margin-left: 800px;
+    border-color:black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 100px 100px;
+}
+#p2name{
+    margin-top: 50x;
+    margin-bottom: 50px;
+}
+ 
+
+
+#chatter{
+    margin-left:40%;
+    margin-top: 200px;
+}
+#chatbox{
+    padding:40px 100px;
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Multiplayer Rock, Paper, Scissor</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script> 
+        <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-auth.js"></script> 
+        <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script> 
+        <script src="assets/javascript/rps2.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="RPS">Rock, Paper, Scissors</div>
+            <div id="startGame">
+            <input id="nameBox">
+            <button id="startGameButton">Start Game</button>
+            </div>
+
+            <div class="players">
+            <div id="player1">
+                <div id="p1name"></div>
+                <div id="r1">Rock</div>
+                <div id="p1">Paper</div>
+                <div id="s1">Scissors</div>
+            </div>
+            <div id="player2">
+                <div id="p2name">Waiting for Player 2</div>
+                <div id="r1">Rock</div>
+                <div id="p1">Paper</div>
+                <div id="s1">Scissors</div>
+            </div>
+            </div>
+            
+            <div id="chatter">
+            <textarea id="chatbox"></textarea>
+            <div id="typer">
+            <input id="chatTyper">
+            <button id="submitChat">Submit</button>
+            </div>
+            </div>
+
+
+            
+
+        </div>
+    </body>
+</html>
